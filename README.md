@@ -83,17 +83,19 @@ Enhanced syntax highlighting for:
 
 ## Recent Updates
 
+
 ### Version v0.2.0
-- Added two new maximum contrast variants:
-  - "Gruvbox Crisp Highest Contrast Pop" - Pure black background with Dracula-inspired vibrant accents
-  - "Gruvbox Crisp Highest Contrast" - Pure black background with traditional Gruvbox colors
-- Complete syntax token support for all language features
-- Enhanced hover states for better navigation
-- Optimized for displays requiring maximum contrast and visual impact
+
+- Added two maximum-contrast variants:
+  - Gruvbox Crisp Anysphere (Highest Contrast, pop): pure black background with Dracula-inspired accents.
+  - Gruvbox Crisp Highest Contrast: pure black background with classic Gruvbox colors.
+- Completed syntax token support across languages.
+- Enhanced hover states for navigation.
+- Optimized for displays requiring maximum contrast and visual impact.
 
 ### Version v0.1.2
-- Fixed issue with text disappearing in popup hover menucards when selected
-- Improved visibility of selected elements with proper text contrast
+- Fixed issue with text disappearing in popup hover menucards when selected.
+- Improved visibility of selected elements with proper text contrast.
 
 ## Contributing
 
