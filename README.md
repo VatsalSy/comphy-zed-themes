@@ -46,6 +46,7 @@ This collection includes multiple variants of the Gruvbox Dark theme:
 2. **High Contrast Purple** - Uses the dark background with purple accents
 3. **Medium** - Uses a balanced background (#282828) for comfortable viewing
 4. **Soft** - Uses a softer background (#32302f) for reduced eye strain
+5. **Highest Contrast, pop** - Pure black editor background (#000000) with pure white text (#ffffff), near-black UI surfaces (#0a0a0a), and vibrant Dracula-inspired accents (e.g., purple #bd93f9, pink #ff79c6). Optimized for maximal readability and strong visual feedback.
 
 All variants maintain the same high-quality syntax highlighting, differing in their background intensity.
 
@@ -80,6 +81,9 @@ Enhanced syntax highlighting for:
 - And many more...
 
 ## Recent Updates
+
+### Version v0.2.0
+- Added new variant: "Highest Contrast, pop" (pure black background, vibrant accents)
 
 ### Version v0.1.2
 - Fixed issue with text disappearing in popup hover menucards when selected
