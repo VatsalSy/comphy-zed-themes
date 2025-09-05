@@ -1534,6 +1534,8 @@
         "editor.document_highlight.read_background": "#fabd2f33",
         "editor.document_highlight.write_background": "#fabd2f55",
         "editor.document_highlight.bracket_background": "#ffffff40",
+        "editor.hoverHighlightBackground": "#ffffff10",
+        "list.hoverBackground": "#1a1a1a",
         
         "terminal.background": "#000000",
         "terminal.foreground": "#ffffff",
@@ -1564,6 +1566,7 @@
         "terminal.ansi.white": "#ffffff",
         "terminal.ansi.bright_white": "#ffffff",
         "terminal.ansi.dim_white": "#ffffff80",
+        "link_text": "#bd93f9",
         "link_text.hover": "#fabd2f",
         "version_control.added": "#b8bb26",
         "version_control.deleted": "#fb4934",
