@@ -46,9 +46,10 @@ This collection includes multiple variants of the Gruvbox Dark theme:
 2. **High Contrast Purple** - Uses the dark background with purple accents
 3. **Medium** - Uses a balanced background (#282828) for comfortable viewing
 4. **Soft** - Uses a softer background (#32302f) for reduced eye strain
-5. **Highest Contrast, pop** - Pure black editor background (#000000) with pure white text (#ffffff), near-black UI surfaces (#0a0a0a), and vibrant Dracula-inspired accents (e.g., purple #bd93f9, pink #ff79c6). Optimized for maximal readability and strong visual feedback.
+5. **Highest Contrast Pop** - Pure black editor background (#000000) designed for displays requiring maximum contrast and visual "pop". Features pure white text (#ffffff), near-black UI surfaces (#0a0a0a), and vibrant Dracula-inspired accents (purple #bd93f9, pink #ff79c6, green #50fa7b). Optimized for displays that lack sufficient contrast with standard themes. Note: May cause eye strain on OLED/high-contrast displays - use other variants if needed.
+6. **Highest Contrast** - Pure black editor background (#000000) with traditional Gruvbox colors for users wanting maximum contrast without the vibrant "pop" aesthetic. Maintains pure white text (#ffffff) and near-black UI surfaces (#0a0a0a) while using the classic Gruvbox palette (red #fb4934, green #b8bb26, yellow #fabd2f, blue #83a598, purple #d3869b).
 
-All variants maintain the same high-quality syntax highlighting, differing in their background intensity.
+All variants maintain the same high-quality syntax highlighting, differing in their background intensity and accent colors.
 
 ## Color Palette
 
@@ -83,7 +84,12 @@ Enhanced syntax highlighting for:
 ## Recent Updates
 
 ### Version v0.2.0
-- Added new variant: "Highest Contrast, pop" (pure black background, vibrant accents)
+- Added two new maximum contrast variants:
+  - "Gruvbox Crisp Highest Contrast Pop" - Pure black background with Dracula-inspired vibrant accents
+  - "Gruvbox Crisp Highest Contrast" - Pure black background with traditional Gruvbox colors
+- Complete syntax token support for all language features
+- Enhanced hover states for better navigation
+- Optimized for displays requiring maximum contrast and visual impact
 
 ### Version v0.1.2
 - Fixed issue with text disappearing in popup hover menucards when selected
