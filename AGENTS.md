@@ -1,0 +1,1 @@
+- all instructions and details are in CLAUDE.md. please read that. 
