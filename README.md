@@ -35,7 +35,7 @@ This theme collection is based on the excellent [Gruvbox Theme by jdinhify](http
 
 This repository includes a GitHub workflow (located at `.github/workflows/bump-extension.yml`)
 using the `bump-zed-extension` action. The workflow automatically bumps the
-version in `extension.toml` when changes are pushed to the `main`
+version in `extension.toml` when changes are pushed to the `master`
 branch, ensuring the package stays up to date for publishing on
 [zed.dev](https://zed.dev).
 ## Theme Variants
@@ -46,10 +46,10 @@ This collection includes multiple variants of the Gruvbox Dark theme:
 2. **High Contrast Purple** - Uses the dark background with purple accents
 3. **Medium** - Uses a balanced background (#282828) for comfortable viewing
 4. **Soft** - Uses a softer background (#32302f) for reduced eye strain
-5. **Highest Contrast Pop** - Pure black editor background (#000000) designed for displays requiring maximum contrast and visual "pop". Features pure white text (#ffffff), near-black UI surfaces (#0a0a0a), and vibrant Dracula-inspired accents (purple #bd93f9, pink #ff79c6, green #50fa7b). Optimized for displays that lack sufficient contrast with standard themes. Note: May cause eye strain on OLED/high-contrast displays - use other variants if needed.
-6. **Highest Contrast** - Pure black editor background (#000000) with traditional Gruvbox colors for users wanting maximum contrast without the vibrant "pop" aesthetic. Maintains pure white text (#ffffff) and near-black UI surfaces (#0a0a0a) while using the classic Gruvbox palette (red #fb4934, green #b8bb26, yellow #fabd2f, blue #83a598, purple #d3869b).
+5. **Highest Contrast Pop** — Pure black editor background (#000000) for displays requiring maximum contrast and visual "pop." Features pure white text (#ffffff), near-black UI surfaces (#0a0a0a), and vibrant Dracula-inspired accents (purple #bd93f9, pink #ff79c6, green #50fa7b). Optimized for displays that lack sufficient contrast with standard themes. Note: May cause eye strain on OLED/high-contrast displays—use other variants if needed.
+6. **Highest Contrast** — Pure black editor background (#000000) with traditional Gruvbox colors for users wanting maximum contrast without the vibrant "pop" aesthetic. Maintains pure white text (#ffffff) and near-black UI surfaces (#0a0a0a) while using the classic Gruvbox palette (red #fb4934, green #b8bb26, yellow #fabd2f, blue #83a598, purple #d3869b).
 
-All variants maintain the same high-quality syntax highlighting, differing in their background intensity and accent colors.
+All variants maintain the same high-quality syntax highlighting, differing in background intensity and accent colors.
 
 ## Color Palette
 
@@ -84,10 +84,11 @@ Enhanced syntax highlighting for:
 ## Recent Updates
 
 ### Version v0.2.0
-- Added two new maximum contrast variants:
-  - "Gruvbox Crisp Highest Contrast Pop" - Pure black background with Dracula-inspired vibrant accents
-  - "Gruvbox Crisp Highest Contrast" - Pure black background with traditional Gruvbox colors
-- Complete syntax token support for all language features
+
+- Added two maximum-contrast variants:
+  - "Gruvbox Crisp Highest Contrast Pop" — pure black background with Dracula-inspired vibrant accents
+  - "Gruvbox Crisp Highest Contrast" — pure black background with traditional Gruvbox colors
+- Complete syntax token coverage for all language features
 - Enhanced hover states for better navigation
 - Optimized for displays requiring maximum contrast and visual impact
 
