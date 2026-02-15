@@ -1,5 +1,5 @@
 /**
- * C Demo - Gruvbox Crisp Theme
+ * C Demo - CoMPhy Crisp Theme
  * Demonstrates various C language syntax highlighting features
  * Author: Vatsal Sanjay
  * Date: 2024-01-20
@@ -255,7 +255,7 @@ void demonstrate_pointers(void) {
 void file_operations_demo(void) {
     print_banner("File Operations");
 
-    const char *filename = "test_gruvbox.txt";
+    const char *filename = "test_comphy.txt";
     FILE *file = fopen(filename, "w+");
 
     if (file == NULL) {
@@ -264,7 +264,7 @@ void file_operations_demo(void) {
     }
 
     // Writing to file
-    fprintf(file, "Gruvbox Crisp Theme Demo\n");
+    fprintf(file, "CoMPhy Crisp Theme Demo\n");
     fprintf(file, "Version: %s\n", VERSION);
     fprintf(file, "Platform: %s\n", PLATFORM);
 
@@ -387,7 +387,7 @@ static inline int square(int x) {
 
 // Main function
 int main(int argc, char *argv[]) {
-    printf("%sGruvbox Crisp Theme - C Language Demo%s\n", COLORS[COLOR_GREEN], RESET);
+    printf("%sCoMPhy Crisp Theme - C Language Demo%s\n", COLORS[COLOR_GREEN], RESET);
     printf("Version: %s, Platform: %s\n\n", VERSION, PLATFORM);
 
     // Command line arguments

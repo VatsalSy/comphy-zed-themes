@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Python Demo - Gruvbox Crisp Theme
+Python Demo - CoMPhy Crisp Theme
 Shows various syntax highlighting features
 """
 

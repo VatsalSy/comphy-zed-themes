@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Gruvbox Crisp Theme - Shell Script Demo
+# CoMPhy Crisp Theme - Shell Script Demo
 # Demonstrates various shell scripting syntax elements
 
 # Shell options and error handling
@@ -19,10 +19,10 @@ readonly RESET='\033[0m'
 readonly SCRIPT_NAME="$(basename "${BASH_SOURCE[0]}")"
 readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 readonly VERSION="1.0.0"
-readonly DEFAULT_CONFIG="${HOME}/.config/gruvbox/theme.conf"
+readonly DEFAULT_CONFIG="${HOME}/.config/comphy/theme.conf"
 
 # Configuration variables
-THEME_NAME="${THEME_NAME:-gruvbox-crisp}"
+THEME_NAME="${THEME_NAME:-comphy-crisp}"
 DEBUG_MODE="${DEBUG:-false}"
 VERBOSE="${VERBOSE:-0}"
 
@@ -31,7 +31,7 @@ usage() {
     cat << EOF
 Usage: ${SCRIPT_NAME} [OPTIONS] COMMAND [ARGS]
 
-A demonstration script for the Gruvbox Crisp theme.
+A demonstration script for the CoMPhy Crisp theme.
 
 COMMANDS:
     install     Install the theme
@@ -181,7 +181,7 @@ install_theme() {
     mkdir -p "${theme_dir}"
     
     # Download theme files
-    local repo_url="https://github.com/VatsalSy/zed-gruvbox_custom_themes"
+    local repo_url="https://github.com/VatsalSy/comphy-zed-themes"
     if command -v git >/dev/null 2>&1; then
         git clone --depth 1 "${repo_url}" "${theme_dir}" || die "Failed to clone repository"
     else
@@ -314,7 +314,7 @@ process_string() {
     
     # Pattern matching
     if [[ "${input}" =~ ^[Gg]ruvbox.*theme$ ]]; then
-        echo "String matches Gruvbox theme pattern"
+        echo "String matches CoMPhy theme pattern"
     fi
 }
 
@@ -339,11 +339,11 @@ process_files() {
 # Function: Here documents and process substitution
 generate_config() {
     cat << 'CONFIG'
-# Gruvbox Crisp Theme Configuration
+# CoMPhy Crisp Theme Configuration
 # Generated on: $(date)
 
 [theme]
-name = gruvbox-crisp
+name = comphy-crisp
 version = 1.0.0
 author = Vatsal Sanjay
 

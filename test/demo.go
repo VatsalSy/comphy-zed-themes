@@ -1,4 +1,4 @@
-// Package main demonstrates Go syntax highlighting for Gruvbox Crisp Theme
+// Package main demonstrates Go syntax highlighting for CoMPhy Crisp Theme
 package main
 
 import (

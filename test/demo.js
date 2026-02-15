@@ -1,5 +1,5 @@
 /**
- * JavaScript Demo - Gruvbox Crisp Theme
+ * JavaScript Demo - CoMPhy Crisp Theme
  * Demonstrates various JS syntax highlighting features
  */
 

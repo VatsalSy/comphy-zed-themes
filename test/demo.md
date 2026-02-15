@@ -1,6 +1,6 @@
-# Gruvbox Crisp Theme Demo
+# CoMPhy Crisp Theme Demo
 
-> A comprehensive demonstration of Markdown syntax highlighting with the Gruvbox Crisp theme.
+> A comprehensive demonstration of Markdown syntax highlighting with the CoMPhy Crisp theme.
 
 ## Table of Contents
 
@@ -19,11 +19,11 @@
 
 ## Introduction
 
-This document showcases various **Markdown** elements to demonstrate how they appear with the _Gruvbox Crisp_ theme. The theme provides excellent contrast and readability for all Markdown elements.
+This document showcases various **Markdown** elements to demonstrate how they appear with the _CoMPhy Crisp_ theme. The theme provides excellent contrast and readability for all Markdown elements.
 
-### Why Gruvbox Crisp?
+### Why CoMPhy Crisp?
 
-The ***Gruvbox Crisp*** theme offers:
+The ***CoMPhy Crisp*** theme offers:
 - **High contrast** for better visibility
 - *Carefully selected* color palette
 - ~~Reduced~~ **Enhanced** readability
@@ -42,7 +42,7 @@ For keyboard shortcuts, use <kbd>Ctrl</kbd> + <kbd>C</kbd>.
 ### Special Characters
 
 - Copyright: &copy; 2024
-- Trademark: Gruvbox&trade;
+- Trademark: CoMPhy&trade;
 - Registered: Theme&reg;
 - Em dash: Text—more text
 - En dash: Pages 1–10
@@ -119,8 +119,8 @@ Use `const` instead of `var` in JavaScript. The `git status` command shows chang
 
 ```javascript
 // JavaScript example
-const gruvbox = {
-  name: 'Gruvbox Crisp',
+const comphy = {
+  name: 'CoMPhy Crisp',
   type: 'dark',
   colors: {
     background: '#1d2021',
@@ -141,7 +141,7 @@ function applyTheme(theme) {
 class ThemeManager:
     """Manages color themes for the editor"""
     
-    def __init__(self, theme_name="gruvbox"):
+    def __init__(self, theme_name="comphy"):
         self.theme_name = theme_name
         self.colors = self._load_colors()
     
@@ -178,7 +178,7 @@ install_theme() {
 }
 
 # Apply theme
-install_theme "gruvbox-crisp"
+install_theme "comphy-crisp"
 ```
 
 ### Syntax Highlighting for Various Languages
@@ -214,7 +214,7 @@ type Theme struct {
 
 func main() {
     theme := Theme{
-        Name: "Gruvbox Crisp",
+        Name: "CoMPhy Crisp",
         Colors: map[string]string{
             "bg": "#1d2021",
             "fg": "#ebdbb2",
@@ -228,7 +228,7 @@ func main() {
 
 ### Basic Table
 
-| Feature | Gruvbox Crisp | Standard Theme |
+| Feature | CoMPhy Crisp | Standard Theme |
 |---------|---------------|----------------|
 | Contrast Ratio | 21:1 | 7:1 |
 | Color Count | 16 | 8 |
@@ -317,7 +317,7 @@ ___
 
 ### Definition Lists
 
-Gruvbox
+CoMPhy
 : A retro groove color scheme for Vim
 
 High Contrast
@@ -357,7 +357,7 @@ $$
 ### Admonitions
 
 !!! note "Important Note"
-    This is an important note about the Gruvbox Crisp theme.
+    This is an important note about the CoMPhy Crisp theme.
 
 !!! warning "Warning"
     Make sure to test your color choices for accessibility.
@@ -377,7 +377,7 @@ This is hidden content that can be revealed by clicking the summary. It's useful
 
 ```json
 {
-  "theme": "gruvbox-crisp",
+  "theme": "comphy-crisp",
   "variant": "high-contrast"
 }
 ```
@@ -421,8 +421,8 @@ Use backslash \\ to escape special characters.
 
 ## Conclusion
 
-The **Gruvbox Crisp** theme provides excellent highlighting for all Markdown elements, making your documents both *beautiful* and ***highly readable***.
+The **CoMPhy Crisp** theme provides excellent highlighting for all Markdown elements, making your documents both *beautiful* and ***highly readable***.
 
-For more information, visit the [Gruvbox Crisp repository](https://github.com/VatsalSy/zed-gruvbox_custom_themes).
+For more information, visit the [CoMPhy Crisp repository](https://github.com/VatsalSy/comphy-zed-themes).
 
 Happy writing! :pencil:

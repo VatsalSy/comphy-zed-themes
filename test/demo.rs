@@ -1,4 +1,4 @@
-//! Rust Demo - Gruvbox Crisp Theme
+//! Rust Demo - CoMPhy Crisp Theme
 //! Demonstrates Rust syntax highlighting features
 
 use std::collections::{HashMap, HashSet};

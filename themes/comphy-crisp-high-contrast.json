@@ -1,10 +1,10 @@
 {
   "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-  "name": "Gruvbox Crisp",
+  "name": "CoMPhy Crisp",
   "author": "Vatsal Sanjay",
   "themes": [
     {
-      "name": "Gruvbox Crisp Anysphere Blend Dark",
+      "name": "CoMPhy Crisp Anysphere Blend Dark",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
@@ -493,7 +493,7 @@
       }
     },
     {
-      "name": "Gruvbox Crisp Anysphere Blend Light",
+      "name": "CoMPhy Crisp Anysphere Blend Light",
       "appearance": "light",
       "style": {
         "background.appearance": "opaque",
@@ -982,7 +982,7 @@
       }
     },
     {
-      "name": "Gruvbox Crisp Anysphere (Highest Contrast, pop)",
+      "name": "CoMPhy Crisp Anysphere (Highest Contrast, pop)",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
@@ -1454,7 +1454,7 @@
       }
     },
     {
-      "name": "Gruvbox Crisp Highest Contrast",
+      "name": "CoMPhy Crisp Highest Contrast",
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",

@@ -1,15 +1,15 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.com/gruvbox-theme-config.schema.json",
-  "title": "Gruvbox Crisp Theme Configuration",
-  "description": "Configuration file for Gruvbox Crisp theme demonstrating JSON syntax highlighting",
+  "$id": "https://example.com/comphy-theme-config.schema.json",
+  "title": "CoMPhy Crisp Theme Configuration",
+  "description": "Configuration file for CoMPhy Crisp theme demonstrating JSON syntax highlighting",
   "type": "object",
   "required": ["name", "version", "themes"],
   
   "properties": {
     "name": {
       "type": "string",
-      "const": "gruvbox-crisp-themes"
+      "const": "comphy-crisp-themes"
     },
     
     "version": {
@@ -268,7 +268,7 @@
   
   "examples": [
     {
-      "name": "gruvbox-crisp-themes",
+      "name": "comphy-crisp-themes",
       "version": "1.0.0",
       "author": {
         "name": "Vatsal Sanjay",
@@ -276,7 +276,7 @@
       },
       "themes": [
         {
-          "name": "Gruvbox Crisp Dark",
+          "name": "CoMPhy Crisp Dark",
           "type": "dark",
           "colors": {
             "background": "#1d2021",
@@ -322,11 +322,11 @@
         "updated": "2024-01-20T15:45:00Z",
         "downloads": 15420,
         "rating": 4.8,
-        "tags": ["gruvbox", "dark-theme", "high-contrast", "retro"]
+        "tags": ["comphy", "dark-theme", "high-contrast", "retro"]
       },
       "configuration": {
         "workbench": {
-          "colorTheme": "Gruvbox Crisp Dark",
+          "colorTheme": "CoMPhy Crisp Dark",
           "iconTheme": null,
           "fontFamily": "'Fira Code', 'Consolas', monospace",
           "fontSize": 14

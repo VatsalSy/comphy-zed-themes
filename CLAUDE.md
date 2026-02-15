@@ -11,8 +11,8 @@
   - Syntax highlighting (token colors)
   - Terminal colors
 - Use descriptive comments to delineate sections
-- Theme naming convention: "Gruvbox Crisp ([Contrast Level], [Special Feature])"
-- Color declarations should reference Gruvbox palette names in comments
+- Theme naming convention: "CoMPhy Crisp ([Contrast Level], [Special Feature])"
+- Color declarations should reference CoMPhy palette names in comments
 - New theme variants should maintain consistent token coloring patterns
 
 ## Workflow
