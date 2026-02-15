@@ -1,0 +1,18 @@
+export BASILISK="/Users/vatsal/CoMPhy-Lab/CoMPhy-themes/comphy-zed-themes/basilisk/src"
+
+if [ ! -d "$BASILISK" ]; then
+  echo "Error: BASILISK directory not found: $BASILISK" >&2
+  return 1 2>/dev/null || exit 1
+fi
+
+# Ensure the repo-installed Basilisk takes precedence, without duplicating PATH
+_PATH=":$PATH:"
+_PATH="${_PATH//:$BASILISK:/:}"
+_PATH="${_PATH#:}"
+_PATH="${_PATH%:}"
+export PATH="$BASILISK${_PATH:+:$_PATH}"
+unset _PATH
+
+# Refresh command lookup cache (best-effort)
+hash -r 2>/dev/null || true
+rehash 2>/dev/null || true

@@ -1,15 +1,21 @@
 # CoMPhy Crisp Themes for Zed Editor
 
-A collection of high-contrast Zed themes optimized for clarity, readability, and visual comfort.
+A collection of jewel-toned Zed themes built around a deep plum (#68236D) accent, with syntax colors emerging against near-void backgrounds with subtle purple warmth.
 
 ## Theme Variants
 
-This extension currently ships four themes:
+This extension ships four themes:
 
-1. `CoMPhy Crisp Anysphere Blend Dark`
-2. `CoMPhy Crisp Anysphere Blend Light`
-3. `CoMPhy Crisp Anysphere (Highest Contrast, pop)`
-4. `CoMPhy Crisp Highest Contrast`
+1. **CoMPhy Crisp Velvet** — Standard dark with purple-tinted blacks and full jewel-tone syntax
+2. **CoMPhy Crisp Velvet Light** — Lavender-white background with darkened syntax for WCAG AA contrast
+3. **CoMPhy Crisp Velvet (Highest Contrast)** — Pure black editor with boosted syntax brightness and active line number accent
+4. **CoMPhy Crisp Velvet (Warm)** — Warm near-black with coral keywords, amber types, and cream text
+
+## Color Palette
+
+- **Accent spectrum**: Deep plum `#68236D` through orchid `#C084C8` to pale `#E8C8EC`
+- **Syntax**: Ruby keywords, jade strings, orchid functions, amber types, sapphire variables, aquamarine properties, amethyst numbers
+- **Backgrounds**: Purple-tinted blacks (`#0D0B0E` standard, `#F4F0F5` light, `#000000` highest contrast, `#100E0D` warm)
 
 ## Installation
 
@@ -28,15 +34,13 @@ This extension currently ships four themes:
 4. Click `Install Dev Extension`
 5. Select the cloned repository directory
 
-## Migration Notes
+## Migration Notes (v0.3.0 to v0.4.0)
 
-This rebrand updates names across the extension and repository:
+The v0.4.0 release replaces all previous theme variants with the new Velvet Abyss palette:
 
-- Extension package ID: `comphy-crisp-themes`
-- Theme names: all variants now use the `CoMPhy Crisp` prefix
-- Repository: `https://github.com/VatsalSy/comphy-zed-themes`
-
-If you are upgrading from an older install, install `CoMPhy Crisp Themes` from the Extensions panel and re-select your preferred theme.
+- Previous variants (`Anysphere Blend Dark`, `Anysphere Blend Light`, `Anysphere (Highest Contrast, pop)`, `Highest Contrast`) are removed
+- New variants: `Velvet`, `Velvet Light`, `Velvet (Highest Contrast)`, `Velvet (Warm)`
+- After updating, re-select your preferred theme from the theme picker
 
 ## Release Workflow
 
