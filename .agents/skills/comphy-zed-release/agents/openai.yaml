@@ -1,0 +1,4 @@
+interface:
+  display_name: "CoMPhy Zed Release"
+  short_description: "Release comphy-crisp-themes to GitHub and Zed registry"
+  default_prompt: "Run the Path B release workflow for this repository."
