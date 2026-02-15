@@ -1,6 +1,0 @@
-ref=v2026-02-14
-os=darwin
-created_utc=2026-02-15T00:47:37Z
-local_bview=false
-patches_applied=2025-11-03-macos-mman-compatibility.patch
-patches_skipped=
