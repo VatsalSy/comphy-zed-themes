@@ -15,7 +15,7 @@ This extension ships four themes:
 
 - **Accent spectrum**: Deep plum `#68236D` through orchid `#C084C8` to pale `#E8C8EC`
 - **Syntax**: Ruby keywords, jade strings, orchid functions, amber types, sapphire variables, aquamarine properties, amethyst numbers
-- **Backgrounds**: Purple-tinted blacks (`#0D0B0E` standard, `#F4F0F5` light, `#000000` highest contrast, `#100E0D` warm)
+- **Backgrounds**: Purple-tinted blacks (`#1A1822` standard, `#F4F0F5` light, `#000000` highest contrast, `#100E0D` warm)
 
 ## Installation
 
