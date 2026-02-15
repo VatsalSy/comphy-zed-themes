@@ -1,11 +1,11 @@
 id = "comphy-crisp-themes"
 name = "CoMPhy Crisp Themes"
-version = "0.3.0"
+version = "0.4.0"
 schema_version = 1
 authors = ["Vatsal Sanjay <vatsalsanjay@gmail.com>"]
-description = "CoMPhy Crisp themes for Zed Editor with high-contrast variants"
+description = "CoMPhy Crisp Velvet themes — jewel-toned syntax on deep plum-tinted dark backgrounds"
 repository = "https://github.com/VatsalSy/comphy-zed-themes"
 icon = "icon.png"
 
 [contributes]
-themes = ["themes/comphy-crisp-high-contrast.json"]
+themes = ["themes/comphy-crisp-velvet.json"]
